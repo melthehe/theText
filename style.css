@@ -1,0 +1,123 @@
+body {
+  background-color: #121212; /* Dark background color */
+  background-image: url("abstract.jpg"); /* Optional: consider adjusting for visibility */
+  color: #ffffff; /* Light text color for readability */
+}
+
+#title {
+  padding: 10px 0;
+  border-bottom: 2px solid #444; /* Darker border for contrast */
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.control-btn-container {
+  display: flex;
+}
+
+.main {
+  display: flex;
+  margin-left: 8px;
+}
+
+.control-btn {
+  margin-left: 8px;
+  width: 90px;
+  height: 100%;
+  background-color: #333; /* Dark button background */
+  color: #ffffff; /* Button text color */
+  border: none; /* No border for a cleaner look */
+}
+
+#filename-input {
+  margin-left: 10px;
+  background-color: #333; /* Dark input background */
+  color: #ffffff; /* Input text color */
+  border: 1px solid #444; /* Darker border */
+}
+
+#content {
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.726);
+  outline: none;
+  margin: 30px 0;
+  min-height: 300px;
+  background-color: #1e1e1e; /* Dark content area */
+  color: #ffffff; /* Text color */
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+button {
+  height: 28px;
+  width: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  border: none;
+  background-color: #555; /* Dark button background */
+  outline: none;
+  color: #ffffff; /* Button text color */
+}
+
+select {
+  padding: 7px;
+  border: 1px solid #444; /* Darker border */
+  border-radius: 3px;
+  background-color: #333; /* Dark select background */
+  color: #ffffff; /* Select text color */
+}
+
+.options label,
+.options select {
+  font-family: "Poppins", sans-serif;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 40px;
+  height: 28px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #444; /* Adjust color for visibility */
+}
+
+input[type="color"]::-moz-color-swatch {
+  border-radius: 15px;
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 3px #444; /* Adjust color for visibility */
+}
+
+#text-input {
+  margin-top: 10px;
+  border: 1px solid #444; /* Darker border */
+  padding: 20px;
+  height: 1000px;
+  background-color: #1e1e1e; /* Dark background for text input */
+  color: #ffffff; /* Text color */
+}
+
+.active {
+  background-color: #333; /* Dark active background */
+}
